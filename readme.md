@@ -1,3 +1,3 @@
 # Homework F and Z Layout
 # Sebastian Fine
-[Azure Link](layoutHomework.eastus.azurecontainer.io)
+[Azure Link](http://layoutHomework.eastus.azurecontainer.io)
