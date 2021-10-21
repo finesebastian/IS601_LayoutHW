@@ -17,6 +17,14 @@
     display: inline-flex;
 }
 
+.backgroundImage{
+    background-image: url('../images/z_background.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .hero-image {
     background-image: url('../images/banner_image.jpg');
     width: 100%;
@@ -56,27 +64,43 @@
     border: 5px;
     padding: 20px;
 }
-.leftImageBox {
+.wrapper .box .leftImageBox {
     grid-column: 1 ;
     width: 20%;
 }
-.rightContentPane {
+.wrapper .box .rightContentPane {
     grid-column: 2;
     width: 80%;
 }
 
-.leftContent {
+.wrapper .box .leftContent {
     grid-column: 1 ;
     width: 20%;
 }
-.rightImageBox {
+.wrapper .box .rightImageBox {
     grid-column: 2;
     width: 80%;
 }
 
-.sideContentbar{
+.wrapper .box .sideContentbar{
     grid-column: 3;
     border-left: 5px double black;
     width: 30%;
+}
+
+.signUpForm{
+    float: right;
+    align-content: center;
+    background-color: antiquewhite;
+    display: inline-grid;
+    margin: 150px 150px 150px 0;
+    padding: 50px;
+
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    min-width: 250px;
+    padding: 15px;
+    margin: 10px 0 10px 0;
 
 }
