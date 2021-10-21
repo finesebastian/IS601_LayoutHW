@@ -1,0 +1,27 @@
+.headerContainer .primarylinks{
+    font-size: 25px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headerContainer .pagetitle {
+    font-weight: bolder;
+    font-size: 50px;
+    align-items: center;
+}
+
+.headerContainer{
+    width: 100%;
+    min-height: 100%;
+    display: inline-flex;
+}
+
+.hero-image {
+    background-image: url("images/banner_image.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
