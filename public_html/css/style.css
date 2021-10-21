@@ -104,3 +104,11 @@ input[type=text], input[type=password] {
     margin: 10px 0 10px 0;
 
 }
+.footer{
+    position: relative;
+    bottom: 100%;
+    width: 100%;
+    align-content: end;
+    justify-content: space-around;
+    background-color: white
+}
