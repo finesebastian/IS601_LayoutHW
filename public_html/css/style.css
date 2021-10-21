@@ -34,6 +34,7 @@
     background-size: cover;
     position: relative;
     display: inline-flex;
+    padding-left: 25px;
 }
 
 .bannerText{
@@ -47,7 +48,6 @@
 .wrapper {
     display: inline-flex;
     margin: 5px 5px 5px 5px;
-    width: 100%;
     grid-gap: 10px;
     grid-auto-columns: 100%;
     grid-auto-rows: 100%;
@@ -61,11 +61,10 @@
 }
 
 .box {
-    border: 5px;
     padding: 20px;
 }
 .wrapper .box .leftImageBox {
-    grid-column: 1 ;
+    grid-column: 1;
     width: 20%;
 }
 .wrapper .box .rightContentPane {
@@ -73,19 +72,28 @@
     width: 80%;
 }
 
-.wrapper .box .leftContent {
-    grid-column: 1 ;
-    width: 20%;
-}
-.wrapper .box .rightImageBox {
+.wrapper .box .centerContentPane {
     grid-column: 2;
     width: 80%;
 }
 
-.wrapper .box .sideContentbar{
+.wrapper .box .leftContentPane {
+    grid-column: 1 ;
+    width: 80%;
+}
+.wrapper .box .rightImageBox {
+    grid-column: 2;
+    width: 20%;
+}
+
+.wrapper .box .rightSideContentbar{
     grid-column: 3;
     border-left: 5px double black;
-    width: 30%;
+}
+
+.wrapper .box .leftSideContentbar{
+    grid-column: 1;
+    border-right: 5px double black;
 }
 
 .signUpForm{
